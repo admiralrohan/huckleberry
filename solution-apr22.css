@@ -1,0 +1,55 @@
+:root {
+  --green: hsl(160deg, 100%, 30%);
+  --gold: hsl(45deg, 100%, 50%);
+  --black: hsl(0deg, 0%, 0%);
+  --white: hsl(0deg, 0%, 100%);
+  --light-gray: hsl(0deg, 0%, 60%);
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  color: var(--green);
+}
+
+.max-width-wrapper {
+  color: var(--black);
+  padding: 40px;
+}
+
+section.max-width-wrapper {
+  border-top: 6px inset var(--light-gray);
+  background-color: var(--light-gray);
+}
+
+.intro-chunk {
+  max-width: 330px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.card {
+  max-width: 650px;
+  background-color: var(--white);
+  padding: 20px;
+  border-bottom: 6px outset var(--light-gray);
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.title,
+.indented-heading {
+  font-size: 20px;
+  margin-top: -12px;
+}
+
+.indented-heading {
+  background-color: var(--gold);
+  border-bottom: 6px outset var(--gold);
+  width: 350px;
+  padding: 15px;
+  margin-left: -30px;
+}
